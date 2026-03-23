@@ -1,0 +1,50 @@
+.tasks-list {
+    margin: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    width: 70%;
+
+    .task-item {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #f0f0f0;
+        border-radius: 4px;
+
+        .task-type {
+            width: 10%;
+        }
+
+        .is-olo {
+            width: 10%;
+        }
+
+        .is-vikings {
+            width: 10%;
+        }
+
+        .oag-id {
+            width: 20%;
+        }
+
+        .client-name {
+            width: 10%;
+        }
+
+        .action {
+            width: 30%;
+            word-break: break-word;
+            overflow-wrap: break-word;
+            white-space: normal;
+            min-width: 0; // 🔥 THIS is the key fix in flexbox
+        }
+
+        .is-terminated {
+            flex: .3;
+        }
+
+    }
+}

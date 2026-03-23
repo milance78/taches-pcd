@@ -1,0 +1,15 @@
+.new-task-input {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  align-items: center;
+  height: 90vh;
+  width: 30%;
+  background: rgb(254, 249, 187);
+  &>* {
+    
+  }
+}
