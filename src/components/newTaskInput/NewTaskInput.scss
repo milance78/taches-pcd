@@ -9,7 +9,9 @@
   height: 90vh;
   width: 30%;
   background: rgb(254, 249, 187);
-  &>* {
-    
+  .network-infrastructure {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
 }

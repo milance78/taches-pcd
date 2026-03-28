@@ -19,7 +19,7 @@ const IsTerminatedInput = () => {
             dispatch(updateIsTerminated(e.target.checked))
           } />
       }
-      label="Tâche finalisée" />
+      label="Terminée" />
   )
 }
 

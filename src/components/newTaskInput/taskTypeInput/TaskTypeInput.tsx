@@ -28,8 +28,8 @@ const TaskTypeInput = () => {
         label="Task type"
         onChange={(e) => dispatch(updateTaskType(e.target.value))}
       >
-        <MenuItem value={'cuivre'}>Cuivre</MenuItem>
-        <MenuItem value={'fibre'}>Fibre</MenuItem>
+        <MenuItem value={'copper'}>Cuivre</MenuItem>
+        <MenuItem value={'fiber'}>Fibre</MenuItem>
         <MenuItem value={'callback'}>Callback</MenuItem>
       </Select>
     </FormControl>

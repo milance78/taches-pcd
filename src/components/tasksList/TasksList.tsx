@@ -12,8 +12,8 @@ const TasksList = () => {
           task =>
             <ul key={task.id} className='task-item'>
               <li className='task-type'> {task.taskType} </li>
-              <li className='is-olo'> {task.isOlo ? 'Olo' : 'Non Olo'} </li>
-              <li className='is-vikings'> {task.isVikings ? 'Mobile Vikings' : 'Non Mobile Vikings'} </li>
+              <li className='network'> {task.network} </li>
+              <li className='infrastructure'> {task.infrastructure} </li>
               <li className='oag-id'> {task.oagID} </li>
               <li className='client-name'> {task.clientName} </li>
               <li className='action'> {task.action} </li>
