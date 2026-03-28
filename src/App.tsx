@@ -6,12 +6,12 @@ import TasksList from './components/tasksList/TasksList'
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <main className='main'>
-        <NewTaskInput />
+    <div className='app'>
+      <NewTaskInput />
+      <>
+        <Header />
         <TasksList />
-      </main>
+      </>
     </div>
   )
 }
